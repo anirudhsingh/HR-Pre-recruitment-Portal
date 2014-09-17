@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A410E463-83F7-47EB-89BE-6AF7A95E83CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MHRI_HR</RootNamespace>
+    <AssemblyName>MHRI_HR</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\styleCandidate.css" />
+    <Content Include="css\styleHRLogin_Thanku.css" />
+    <Content Include="css\Stylesheet_PSI.css" />
+    <Content Include="css\Stylesheet_RSI.css" />
+    <Content Include="css\style_New.css" />
+    <Content Include="Fonts\museo300-regular-webfont.svg" />
+    <Content Include="Fonts\museo500-regular-webfont.svg" />
+    <Content Include="Forms\CandidateLogin.aspx" />
+    <Content Include="Forms\HR_Entry.aspx" />
+    <Content Include="Forms\HR_Login.aspx" />
+    <Content Include="Forms\PSI.aspx" />
+    <Content Include="images\ArrowL_grey.jpg" />
+    <Content Include="images\ArrowR.jpg" />
+    <Content Include="images\Back-button.jpg" />
+    <Content Include="images\BG-img.jpg" />
+    <Content Include="images\Big-back.jpg" />
+    <Content Include="images\CandidateLogin-Button.jpg" />
+    <Content Include="images\Exit-button.jpg" />
+    <Content Include="images\Login-button.jpg" />
+    <Content Include="images\Next-button.jpg" />
+    <Content Include="images\Next-button_new.jpg" />
+    <Content Include="images\Next.gif" />
+    <Content Include="images\Number-bg.png" />
+    <Content Include="images\Submit-button.jpg" />
+    <Content Include="QuesImage\14.JPG" />
+    <Content Include="QuesImage\15.JPG" />
+    <Content Include="Forms\RSI.aspx" />
+    <Content Include="Forms\Thankyou.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Forms\CAF.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\CandidateLogin.aspx.cs">
+      <DependentUpon>CandidateLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\CandidateLogin.aspx.designer.cs">
+      <DependentUpon>CandidateLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DataAccess.cs" />
+    <Compile Include="Common\DataConstant.cs" />
+    <Compile Include="Common\DataEntity.cs" />
+    <Compile Include="Common\EmailUtil.cs" />
+    <Compile Include="Forms\HR_Entry.aspx.cs">
+      <DependentUpon>HR_Entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\HR_Entry.aspx.designer.cs">
+      <DependentUpon>HR_Entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HR_Login.aspx.cs">
+      <DependentUpon>HR_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\HR_Login.aspx.designer.cs">
+      <DependentUpon>HR_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\MHRISesstion.cs" />
+    <Compile Include="Forms\PSI.aspx.cs">
+      <DependentUpon>PSI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\PSI.aspx.designer.cs">
+      <DependentUpon>PSI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\RSI.aspx.cs">
+      <DependentUpon>RSI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\RSI.aspx.designer.cs">
+      <DependentUpon>RSI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\SendMail.cs" />
+    <Compile Include="Common\SqlHelper.cs" />
+    <Compile Include="Forms\Thankyou.aspx.cs">
+      <DependentUpon>Thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Thankyou.aspx.designer.cs">
+      <DependentUpon>Thankyou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CAF.aspx.cs">
+      <DependentUpon>CAF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\CAF.aspx.designer.cs">
+      <DependentUpon>CAF.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\Museo300-Regular.otf" />
+    <Content Include="Fonts\Museo500-Regular.otf" />
+    <Content Include="Fonts\Museo700-Regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\museo500-regular-webfont.eot" />
+    <Content Include="Fonts\museo500-regular-webfont.ttf" />
+    <Content Include="Fonts\museo500-regular-webfont.woff" />
+    <Content Include="Fonts\museo500-regular-webfont.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\museo300-regular-webfont.eot" />
+    <Content Include="Fonts\museo300-regular-webfont.ttf" />
+    <Content Include="Fonts\museo300-regular-webfont.woff" />
+    <Content Include="Fonts\museo300-regular-webfont.woff2" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56832</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'museo300';
+    src: url("../Fonts/museo300-regular-webfont.eot");
+    src: url("../Fonts/museo300-regular-webfont.eot?#iefix") format('embedded-opentype'),
+         url("../Fonts/museo300-regular-webfont.woff2") format('woff2'),
+         url("../Fonts/museo300-regular-webfont.woff") format('woff'),
+         url("../Fonts/museo300-regular-webfont.ttf") format('truetype'),
+         url("../Fonts/museo300-regular-webfont.svg#museo300") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'museo500';
+    src: url("../Fonts/museo500-regular-webfont.eot");
+    src: url("../Fonts/museo500-regular-webfont.eot?#iefix") format('embedded-opentype'),
+         url("../Fonts/'museo500-regular-webfont.woff2") format('woff2'),
+         url("../Fonts/museo500-regular-webfont.woff") format('woff'),
+         url("../Fonts/museo500-regular-webfont.ttf") format('truetype'),
+         url("../Fonts/museo500-regular-webfont.svg#museo500") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+body{background-color:#fff!important; background:none; font-family:Museo300; color:black;}
+/* End of RSI Page */  
+
+div#rsi-container
+{
+margin:0px auto; 
+width:968px; 
+height:1201px !important;
+background-color:#FED250;
+}
+
+div#login-container
+{
+margin:0px auto; 
+width:968px; 
+height:950px !important;
+background-color:#FED250;
+}
+
+.rsi_header
+{
+background-image:url("../images/BG-img.jpg");
+float:left;
+}
+.rsi_header_image
+{
+width:968px;
+height:398px;
+margin:0px;
+background-repeat:no-repeat;
+}
+.header_content
+{ 
+margin:354px 0 0 24px;
+font-family:Museo500;
+font-size:24px;
+color:#FFFFFF;
+}
+.rsi_clear
+{
+clear:both;
+content:'';
+display:block;
+height:0;
+overflow:hidden; 
+visibility:hidden; 
+line-height:0;     
+}
+.rsiquestion_text
+{
+margin:40px 0px 10px 60px !important;
+}
+.rsiquestion_text div.heading
+{
+font-family:Museo500; 
+font-size:27px;
+}
+.rsiquestion_text div.desc{font-family:Museo300; font-size:13px;}
+
+
+div#mhrsi-content
+{ 
+height:623px;
+width:868px;
+display:block;
+background-color:white;
+margin:0px 50px;
+overflow:hidden;
+Font:12px Museo300;
+font-weight:normal;
+}
+
+div#rsi-question-container{margin:10px 10px 10px 0px; font:12px Museo300;}
+  
+div.question-container
+{
+float:left;
+padding-left:50px;
+vertical-align:middle;
+padding-top:12px;
+padding-bottom:12px;
+margin:0px;
+height:43px !important;
+width:100%;
+}
+.bgcol{background-color:#f1f1f1; height:67px; width:100%;}
+
+div.rsi-number
+{
+background:url('../images/Number-bg.png');
+background-position:center;
+float:left;
+text-align:left;
+width:20px;
+vertical-align:top;
+color:white;
+background-repeat:no-repeat;
+font:12px Museo300;
+margin-right:5px;
+padding-left:13px;
+padding-top:10px;
+height:26px;
+display:inline-block;
+}
+div.rsi-question
+{
+float:left;
+}
+
+div.rsi-question input[type=text]
+{
+float:left;
+display:inline-block;
+margin-right:5px;
+font:12px Museo300;
+color:#999999;
+text-align:center;
+width:20px;
+border: 1px solid #DDDDDD;
+} 
+div.rsi-question p
+{
+display:inline-block;
+}
+div#rsi-next{float:right; margin-right:50px; margin-top:10px; margin-bottom:20px;}
+div#rsi-next1{float:right; margin-right:30px; margin-top:20px; margin-bottom:20px;} 
+
+/* Candidate Entry Page */ 
+ 
+div#candidate-mh-container{ 
+height:536px;
+*height:566px;
+width:480px;
+margin-left:350px;
+margin-top:20px;
+overflow:hidden;
+font-family:Museo300;
+font-size:12px;
+font-weight:normal;
+}
+div#candidate-mh-welcome{height:60px; width:480px; color:black;}
+p.candidate-welcome-cand{font-family:Museo500; font-size:28px; margin-left:168px; padding-top:20px; margin-top:0px; font-weight:bolder;}
+p.candidate-welcome-text{font-family:Museo300; font-size:12px; margin-left:48px; padding-top:5px;} 
+#candidate-mh-login-container{margin-left:48px; max-width:480px; max-height:416px; *max-height:446px;}
+div#candidate-mh-logintext{font-family:Museo500; font-size:22px; color: #f7a842; margin-top:5px;}  
+#candidate-mh-loginform{margin-top:5px;font-family:Museo500;}
+div.candidate-level
+{
+font-family:Museo300;
+font-size:12px;
+color:black;
+float:left;
+width:118px;
+height:25px
+*height:20px !important;
+*margin-top:0px !important;
+*margin-bottom:0px !important;
+padding-top:3px;
+text-align:right;
+margin-bottom:1px;
+margin-top:1px;
+}
+div.candidate-input
+{
+font:12px Museo300;
+margin-left:16px;
+width:270px;
+height:30px;
+*height:20px !important;
+*margin-top:0px !important;
+*margin-bottom:0px !important;
+display:inline-block;
+vertical-align:middle;
+margin-bottom:1px;
+margin-top:1px;
+}
+
+div.candidate-input input[type=text]{font:12px Museo300; width:242px; padding: 3px; border: 1px solid #DDDDDD;} 
+input.candidate-DOB-date
+{
+font:12px Museo300;
+color:#999999;
+width:62px;
+margin-right:2px;
+padding: 3px;   
+border: 0px solid #DDDDDD;
+} 
+input.candidate-DOB-month
+{
+font:12px Museo300;
+color:#999999;
+width:62px;
+padding: 3px;   
+margin-right:2px;
+border: 0px solid #DDDDDD;
+} 
+input.candidate-DOB-year{font:12px Museo300; color:#999999; width:94px; padding: 3px; border: 0px solid #DDDDDD;} 
+div.candidate-input select
+{
+*margin-left:16px !important;
+font:12px Museo300;
+width:250px;
+padding: 3px;   
+color:#999999;
+border: 1px solid #DDDDDD;
+} 
+select#candidate-exp-year
+{
+color:#999999;
+font:12px Museo300;
+width:121px;
+margin-right:3px;
+padding: 3px; 
+border: 1px solid #DDDDDD;
+}
+select#candidate-exp-month
+{
+color:#999999;
+font:12px Museo300;
+width:121px;
+padding: 3px; 
+border: 1px solid #DDDDDD;
+}
+div.voluntary{margin-left:105px; float:left; vertical-align:top;}
+div.voluntary input{margin-right:10px; float:left !important; display:inline-block;}
+div.voluntary{margin-top:3px; font:12px Museo300;}
+div.voluntary-text{float:left; clear:right;}
+div.vol-input{float:left;}
+/* End of Candidate Entry Page */
+
+
+

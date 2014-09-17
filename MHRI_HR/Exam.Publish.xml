@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Projects_Kellton\Club Mahindra\Published" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Exam" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="css/styleHRLogin_Thanku.css" publishTime="09/15/2014 14:43:05" />
+    <file relUrl="Fonts/museo300-regular-webfont.woff" publishTime="09/15/2014 14:40:57" />
+    <file relUrl="images/ArrowR.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Fonts/museo500-regular-webfont.woff2" publishTime="09/15/2014 14:14:00" />
+    <file relUrl="Fonts/museo500-regular-webfont.svg" publishTime="09/15/2014 14:14:00" />
+    <file relUrl="Fonts/Museo700-Regular.otf" publishTime="08/29/2010 05:23:16" />
+    <file relUrl="images/Big-back.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Fonts/museo300-regular-webfont.woff2" publishTime="09/15/2014 14:40:57" />
+    <file relUrl="css/styleCandidate.css" publishTime="09/15/2014 14:43:05" />
+    <file relUrl="bin/MHRI_HR.pdb" publishTime="09/15/2014 14:43:33" />
+    <file relUrl="Fonts/museo500-regular-webfont.woff" publishTime="09/15/2014 14:14:00" />
+    <file relUrl="Forms/HR_Entry.aspx" publishTime="04/17/2014 18:52:17" />
+    <file relUrl="bin/MHRI_HR.dll" publishTime="09/15/2014 14:43:33" />
+    <file relUrl="Fonts/museo500-regular-webfont.eot" publishTime="09/15/2014 14:14:00" />
+    <file relUrl="images/Login-button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="images/ArrowL_grey.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="css/style_New.css" publishTime="09/15/2014 14:43:08" />
+    <file relUrl="images/Next.gif" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Forms/RSI.aspx" publishTime="05/08/2014 15:04:58" />
+    <file relUrl="Fonts/museo300-regular-webfont.ttf" publishTime="09/15/2014 14:40:57" />
+    <file relUrl="images/Back-button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="QuesImage/15.JPG" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="css/Stylesheet_PSI.css" publishTime="09/15/2014 14:43:05" />
+    <file relUrl="images/Next-button_new.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Fonts/Museo500-Regular.otf" publishTime="08/25/2014 14:10:59" />
+    <file relUrl="images/Next-button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="css/Stylesheet_RSI.css" publishTime="09/15/2014 14:43:05" />
+    <file relUrl="Fonts/museo300-regular-webfont.svg" publishTime="09/15/2014 14:40:57" />
+    <file relUrl="Fonts/Museo300-Regular.otf" publishTime="08/25/2014 13:50:07" />
+    <file relUrl="images/Exit-button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="images/BG-img.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Fonts/museo500-regular-webfont.ttf" publishTime="09/15/2014 14:14:00" />
+    <file relUrl="images/Submit-button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Forms/CAF.aspx" publishTime="05/29/2014 10:56:43" />
+    <file relUrl="images/CandidateLogin-Button.jpg" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Forms/Thankyou.aspx" publishTime="05/08/2014 19:07:06" />
+    <file relUrl="QuesImage/14.JPG" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Web.config" publishTime="09/12/2014 11:09:11" />
+    <file relUrl="Fonts/museo300-regular-webfont.eot" publishTime="09/15/2014 14:40:57" />
+    <file relUrl="Forms/PSI.aspx" publishTime="05/08/2014 13:04:56" />
+    <file relUrl="images/Number-bg.png" publishTime="01/13/2014 15:04:00" />
+    <file relUrl="Forms/HR_Login.aspx" publishTime="05/07/2014 11:26:49" />
+    <file relUrl="Forms/CandidateLogin.aspx" publishTime="05/08/2014 13:23:19" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,5 @@
+D:\Project\MHRI_HR\MHRI_HR\MHRI_HR\bin\MHRI_HR.dll
+D:\Project\MHRI_HR\MHRI_HR\MHRI_HR\bin\MHRI_HR.pdb
+D:\Project\MHRI_HR\MHRI_HR\MHRI_HR\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\MHRI_HR\MHRI_HR\MHRI_HR\obj\Debug\MHRI_HR.dll
+D:\Project\MHRI_HR\MHRI_HR\MHRI_HR\obj\Debug\MHRI_HR.pdb
